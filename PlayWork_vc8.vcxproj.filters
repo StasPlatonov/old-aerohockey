@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{1f7e7c87-006e-4cdc-bee8-448c86cfaf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Impl">
+      <UniqueIdentifier>{90621460-1d3e-4594-a66a-c1334ce9f497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numbers">
+      <UniqueIdentifier>{a5eb6c89-cd48-41f0-87be-5f9e9389c468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Aero">
+      <UniqueIdentifier>{33e1d1a0-0ccf-466d-aa91-7c04db7c53ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{7874f952-600e-438f-b88e-498a65b1909e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{f0b0e7c2-95aa-45c1-90b4-e0d045b11a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{bc7adf36-04f1-45ef-a911-eb3f10fb517f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Src">
+      <UniqueIdentifier>{65a5361f-84b2-4689-aed7-8fe0d123d3bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aero\AeroClient.cpp">
+      <Filter>Source Files\Aero</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\AeroGLClient.cpp">
+      <Filter>Source Files\Aero</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\AeroPlayer.cpp">
+      <Filter>Source Files\Aero</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\AeroServer.cpp">
+      <Filter>Source Files\Aero</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Impl\RakNetworkImpl.cpp">
+      <Filter>Source Files\Network\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Client.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Server.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\GLRender.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Localization.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Utils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Timer.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Thread.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Serialization.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbers\NumbersClient.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbers\NumbersConsoleClient.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbers\NumbersServer.cpp">
+      <Filter>Source Files\Numbers</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysWorld.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\xmlParser.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Launcher.cpp">
+      <Filter>Source Files\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PlayWork.cpp">
+      <Filter>Source Files\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aero\AeroClient.h">
+      <Filter>Source Files\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\AeroGLClient.h">
+      <Filter>Source Files\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\AeroPhysWorld.h">
+      <Filter>Source Files\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\AeroPlayer.h">
+      <Filter>Source Files\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\AeroServer.h">
+      <Filter>Source Files\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\AeroTypes.h">
+      <Filter>Source Files\Aero</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Types.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\INetwork.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Server.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Client.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Localization.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Mutex.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Serialization.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Templates.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Thread.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Timer.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Types.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Utils.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\xmlParser.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\IRender.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers\NumbersClient.h">
+      <Filter>Source Files\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers\NumbersConsoleClient.h">
+      <Filter>Source Files\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers\NumbersServer.h">
+      <Filter>Source Files\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers\NumbersTypes.h">
+      <Filter>Source Files\Numbers</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysWorld.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Impl\RakNetworkImpl.h">
+      <Filter>Source Files\Network\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Launcher.h">
+      <Filter>Source Files\Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

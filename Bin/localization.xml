@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Localization>
+  <Locale id = "1" loc = "En_US">
+    <Unit id = "ID_HELLO" text = "abcdefghijklmnopqrstuvwxyz"/>
+  </Locale>
+  
+  <Locale id = "2" loc = "Russian">
+    <Unit id = "ID_HELLO" text = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"/>
+  </Locale>
+  
+  <Locale id = "3" loc = "German_Germany.1252">
+    <Unit id = "ID_HELLO" text = "Unglück Übung ä ö ü ß macht den Meister!"/>
+  </Locale>
+  
+  <Locale id = "4" loc = "Japanese_Japan.932">
+    <Unit id = "ID_HELLO" text = "能ある鷹は爪を隠す自分が悩んだことのない人は、ま ず人を動かすことはできない。"/>
+    <Unit id = "ID_BYE" text = "人を動かすことのできる人は、他人の気持ちになれる人である。そのかわり、他人の気持ちになれる人というのは自分が悩む。"/>
+  </Locale>
+</Localization>
